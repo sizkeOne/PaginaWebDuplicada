@@ -183,3 +183,53 @@ button:hover img{
     4px -4px 10px lightgray,
     -4px -4px 10px lightgray;
 }
+#suscribite{
+    background-color: #114171;
+    height: 140px;
+}
+.icon-register{
+    height: 100px;
+    width: 100px;
+}
+
+
+#formulario{
+    display: flex;
+    justify-content: space-between
+    
+}
+.card1{
+    border: 0px;
+    border-radius: 100px;
+    }
+#cartas{
+    border-radius: 30px;
+height: 300px;
+    width: 550px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+display: flex;
+justify-content: center;
+align-items: baseline;
+}
+#input{
+   
+    border-radius: 15px;
+    height: 50px;
+    width: 700px;
+}
+.suscripcion{
+    display: flex;
+    flex-direction: column;
+}
+
+#btn{
+    background-color: #058dad;
+    border-radius: 15px ;
+    width: 170px;
+}
