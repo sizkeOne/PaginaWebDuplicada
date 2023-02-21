@@ -119,3 +119,67 @@ button:hover img{
     background-color:rgba(200, 200, 200, 0.87);  
 
 }
+
+/* card-section */
+.card-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 647px;
+}
+.title-section-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-s-c{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #153e69;
+    margin-bottom: .4rem;
+}
+.title-s-c > span {
+    color: #ac272f;
+}
+.subtitle-s-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3.4rem;
+}
+.subtitle-s-c-t{
+    font-family: 'Roboto';
+    font-size: 1.8rem;
+    color: #153e69;
+}
+.line-hor{
+    height: 2px;
+    width: 4rem;
+    background-color: #153e69;
+}
+.list-cards{
+    width: 82%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.card{
+    height: 100%;
+    height: 100%;
+}
+.img-card{
+    width: 100%;
+    /* width:83%; */
+    object-fit: contain;
+    transition: transform .8s;
+}
+.img-card:hover {
+    transform: scale(1.06);
+    box-shadow: 4px 4px 10px lightgray,
+    -4px 4px 10px lightgray,
+    4px -4px 10px lightgray,
+    -4px -4px 10px lightgray;
+}
